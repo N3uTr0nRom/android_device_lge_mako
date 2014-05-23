@@ -44,4 +44,4 @@ TARGET_SELINUX_CONFIG := mako_defconfig
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/mako/device.mk)
-$(call inherit-product-if-exists, vendor/lge/mako/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/mako/mako-vendor.mk)
